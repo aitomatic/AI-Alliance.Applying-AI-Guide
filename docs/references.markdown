@@ -18,18 +18,18 @@ has_children: false
 
 ### OODA loop
 
-[link](https://en.wikipedia.org/wiki/OODA_loop){:target="ooda"}
+[Wikipedia page](https://en.wikipedia.org/wiki/OODA_loop){:target="ooda"}
 
-Constantly performing the loop - Observe, Orient, Decide, Act. Originally developed by [United States Air Force Colonel John Boyd](https://en.wikipedia.org/wiki/John_Boyd_(military_strategist)){:target="john-boyd"} for combat operations, it has been applied in other areas, like industrial applications, project assessment, etc.
+The [OODA loop]({{site.baseurl}}/glossary#ooda-loop) involves constantly performing the loop - Observe, Orient, Decide, Act. Originally developed by [United States Air Force Colonel John Boyd](https://en.wikipedia.org/wiki/John_Boyd_(military_strategist)){:target="john-boyd"} for combat operations, it has been applied in other areas, such as industrial applications, project assessment, etc.
 
-### Prompt Engineering
+### Prompt engineering
 
-[link](https://en.wikipedia.org/wiki/Prompt_engineering){:target="wikipedia-prompt"}
+[Wikipedia page](https://en.wikipedia.org/wiki/Prompt_engineering){:target="wikipedia-prompt"}
 
-Wikipedia overview of techniques to manipulate prompts in order to achieve more desirable responses.
+An overview of The [prompt engineering]({{site.baseurl}}/glossary#prompt-engineering) techniques to manipulate prompts in order to achieve more desirable responses.
 
 ### What is retrieval-augmented generation?
 
-[link](https://research.ibm.com/blog/retrieval-augmented-generation-RAG){:target="ibm-rag"}
+[IBM blog post](https://research.ibm.com/blog/retrieval-augmented-generation-RAG){:target="ibm-rag"}
 
-One of many introductions to the popular RAG pattern for improving alignment, especially with data that is newer than the last training or tuning run for the underlying models.
+One of many introductions to the popular [RAG pattern]({{site.baseurl}}/glossary#retrieval-augmented-generation) for improving [alignment]({{site.baseurl}}/glossary#alignment), especially with data that is newer than the last training or tuning run for the underlying models.
