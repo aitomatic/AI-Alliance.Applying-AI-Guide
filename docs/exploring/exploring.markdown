@@ -7,6 +7,9 @@ has_children: true
 
 # Exploring AI System Design
 
-To be written
-
-* [Example Post]({{site.baseurl}}/exploring/example-post).
+* Data Preparation with Data Prep Kit
+* Retrieval Augmented Fine-Tuning (RAFT) for Domain-Specific Chatbots
+* RAG for Q&A with OPEA
+* [Granite Community and Cookbooks]({{site.baseurl}}/exploring/granite-community-cookbooks).
+* DANA: Domain-Aware Neurosymbolic Agent
+* GraphRAG
