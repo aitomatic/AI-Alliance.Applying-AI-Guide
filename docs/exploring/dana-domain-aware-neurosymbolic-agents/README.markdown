@@ -14,10 +14,10 @@ parent: Exploring AI System Design
 > _Open-Source Implementation:_ Aitomatic's [__OpenSSA__](https://github.com/aitomatic/openssa) framework for small specialist agents
 
 DANA is Aitomatic's agentic-AI architecture for solving complex, high-stakes problems
-in industries like semiconductor, manufacturing and finance,
-where consistency, accuracy and deterministic outcomes are essential.
+in industries like semiconductor, energy and finance,
+where consistency, accuracy and deterministic outcomes are paramount.
 
-DANA agents capture domain knowledge from experts and apply such knowledge to solve problems.
+DANA agents capture domain knowledge from experts and apply such knowledge to solve problems:
 
 ![DANA Architecture](DANA-Architecture.png)
 
