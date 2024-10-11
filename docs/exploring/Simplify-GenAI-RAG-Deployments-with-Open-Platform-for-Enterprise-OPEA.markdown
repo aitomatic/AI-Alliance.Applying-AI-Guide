@@ -1,4 +1,12 @@
+---
+layout: default
+title: Simplify GenAI RAG Deployments with OPEA
+nav_order: 50
+parent: Exploring AI System Design
+---
+
 # Simplify GenAI RAG Deployments with Open Platform for Enterprise (OPEA)
+
 Chatbots are often considered canonical examples of generative AI (GenAI) because they encapsulate several core principles and capabilities of this technology. Chatbots leverage GenAI to understand and generate human-like responses in natural language. This involves interpreting user inputs, processing the previous interactions, and producing coherent, relevant replies. Chatbots can maintain a conversation across multiple turns, understanding the context and responding appropriately. This showcases the generative model's ability to handle dynamic, real-world communication scenarios. Generative AI enables chatbots to tailor responses based on user preferences, past interactions, and specific needs. This personalization is a key feature of generative models, making them more effective in user engagement. 
 Large Language Models (LLMs) offer these capabilities to varying extents. So a chatbot backed by an LLM is a powerful tool that can interact with users in a highly nuanced pre-trained context-aware manner. These chatbots, powered by LLMs, are capable of understanding complex queries, providing detailed responses, and even handling ambiguous or open-ended questions. The generative nature of LLMs allows these chatbots to not only retrieve information but also create new content on the fly, making the interaction more dynamic and personalized. However, it presents some challenges. Hallucinations can occur when the model generates plausible but incorrect information. Ensuring accuracy, managing content relevance, and addressing the potential for outdated responses are critical issues that need to be addressed when deploying these models.
 
@@ -22,7 +30,8 @@ The reference architecture is divided into 3 parts:
 * **RAG Context**: The example allows the user to upload a file to be used as context for future queries. The dataprep microservice performs the preprocessing and inserts it into the vector database to be used to provide context for future queries.
 Each microservice is available as a Docker container. This allows any GenAI example to be deployed using Docker Compose or a Kubernetes cluster.
 
-##Call to Action
+## Call to Action
+
 Try building your chatbot using the ChatQnA demo following the steps from the repository https://github.com/opea-project/GenAIExamples/tree/main/ChatQnA: 
 
 1. Start docker service using docker image
@@ -34,7 +43,7 @@ Try building your chatbot using the ChatQnA demo following the steps from the re
 4. Consume individual microservices / megaservice
 5. Monitoring with Prometheus and Grafana dashboard
 
-##Conclusion
+## Conclusion
 Thanks to the modularity offered by OPEA, any block in this example can be easily replaced without the need to rebuild the entire setup, allowing both experimentation for tuning performance and outcomes, and then enabling ease in productization on existing infrastructure. 
 
 You can navigate to the [GenAIComps repo](https://github.com/opea-project/GenAIComps/tree/main), where all components are hosted, and build your example using any of the available microservices contributed by partners and the community that is part of OPEA. For example, you can swap out the vector store (redis) used in the example with any of the other available [options](https://github.com/opea-project/GenAIComps/tree/main/comps/vectorstores/langchain) such as Chroma, Milvus, pgvector, pinecone or qdrant.
